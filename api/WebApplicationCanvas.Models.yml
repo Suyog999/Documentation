@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: WebApplicationCanvas.Models
+  commentId: N:WebApplicationCanvas.Models
+  id: WebApplicationCanvas.Models
+  children:
+  - WebApplicationCanvas.Models.ErrorViewModel
+  langs:
+  - csharp
+  - vb
+  name: WebApplicationCanvas.Models
+  nameWithType: WebApplicationCanvas.Models
+  fullName: WebApplicationCanvas.Models
+  type: Namespace
+  assemblies:
+  - WebApplicationCanvas
+references:
+- uid: WebApplicationCanvas.Models.ErrorViewModel
+  commentId: T:WebApplicationCanvas.Models.ErrorViewModel
+  href: WebApplicationCanvas.Models.ErrorViewModel.html
+  name: ErrorViewModel
+  nameWithType: ErrorViewModel
+  fullName: WebApplicationCanvas.Models.ErrorViewModel

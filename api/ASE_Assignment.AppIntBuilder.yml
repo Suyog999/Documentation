@@ -1,0 +1,678 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_Assignment.AppIntBuilder
+  commentId: T:ASE_Assignment.AppIntBuilder
+  id: AppIntBuilder
+  parent: ASE_Assignment
+  children:
+  - ASE_Assignment.AppIntBuilder.#ctor
+  - ASE_Assignment.AppIntBuilder.BuildConfiguration
+  - ASE_Assignment.AppIntBuilder.BuildDependencies
+  - ASE_Assignment.AppIntBuilder.BuildSettings
+  - ASE_Assignment.AppIntBuilder.ConfigurationBuilt
+  - ASE_Assignment.AppIntBuilder.DependenciesBuilt
+  - ASE_Assignment.AppIntBuilder.GetAppInt
+  - ASE_Assignment.AppIntBuilder.SettingsBuilt
+  langs:
+  - csharp
+  - vb
+  name: AppIntBuilder
+  nameWithType: AppIntBuilder
+  fullName: ASE_Assignment.AppIntBuilder
+  type: Class
+  source:
+    remote:
+      path: ASE Assignment/Design Pattern/AppIntBuilder.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
+    id: AppIntBuilder
+    path: ../ASE Assignment/Design Pattern/AppIntBuilder.cs
+    startLine: 4
+  assemblies:
+  - ASE Assignment
+  namespace: ASE_Assignment
+  syntax:
+    content: 'public class AppIntBuilder : InterfaceAppIntBuilder'
+    content.vb: Public Class AppIntBuilder Implements InterfaceAppIntBuilder
+  inheritance:
+  - System.Object
+  implements:
+  - ASE_Assignment.InterfaceAppIntBuilder
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: ASE_Assignment.AppIntBuilder.ConfigurationBuilt
+  commentId: P:ASE_Assignment.AppIntBuilder.ConfigurationBuilt
+  id: ConfigurationBuilt
+  parent: ASE_Assignment.AppIntBuilder
+  langs:
+  - csharp
+  - vb
+  name: ConfigurationBuilt
+  nameWithType: AppIntBuilder.ConfigurationBuilt
+  fullName: ASE_Assignment.AppIntBuilder.ConfigurationBuilt
+  type: Property
+  source:
+    remote:
+      path: ASE Assignment/Design Pattern/AppIntBuilder.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
+    id: ConfigurationBuilt
+    path: ../ASE Assignment/Design Pattern/AppIntBuilder.cs
+    startLine: 8
+  assemblies:
+  - ASE Assignment
+  namespace: ASE_Assignment
+  syntax:
+    content: public bool ConfigurationBuilt { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ConfigurationBuilt As Boolean
+  overload: ASE_Assignment.AppIntBuilder.ConfigurationBuilt*
+- uid: ASE_Assignment.AppIntBuilder.DependenciesBuilt
+  commentId: P:ASE_Assignment.AppIntBuilder.DependenciesBuilt
+  id: DependenciesBuilt
+  parent: ASE_Assignment.AppIntBuilder
+  langs:
+  - csharp
+  - vb
+  name: DependenciesBuilt
+  nameWithType: AppIntBuilder.DependenciesBuilt
+  fullName: ASE_Assignment.AppIntBuilder.DependenciesBuilt
+  type: Property
+  source:
+    remote:
+      path: ASE Assignment/Design Pattern/AppIntBuilder.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
+    id: DependenciesBuilt
+    path: ../ASE Assignment/Design Pattern/AppIntBuilder.cs
+    startLine: 9
+  assemblies:
+  - ASE Assignment
+  namespace: ASE_Assignment
+  syntax:
+    content: public bool DependenciesBuilt { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property DependenciesBuilt As Boolean
+  overload: ASE_Assignment.AppIntBuilder.DependenciesBuilt*
+- uid: ASE_Assignment.AppIntBuilder.SettingsBuilt
+  commentId: P:ASE_Assignment.AppIntBuilder.SettingsBuilt
+  id: SettingsBuilt
+  parent: ASE_Assignment.AppIntBuilder
+  langs:
+  - csharp
+  - vb
+  name: SettingsBuilt
+  nameWithType: AppIntBuilder.SettingsBuilt
+  fullName: ASE_Assignment.AppIntBuilder.SettingsBuilt
+  type: Property
+  source:
+    remote:
+      path: ASE Assignment/Design Pattern/AppIntBuilder.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
+    id: SettingsBuilt
+    path: ../ASE Assignment/Design Pattern/AppIntBuilder.cs
+    startLine: 10
+  assemblies:
+  - ASE Assignment
+  namespace: ASE_Assignment
+  syntax:
+    content: public bool SettingsBuilt { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property SettingsBuilt As Boolean
+  overload: ASE_Assignment.AppIntBuilder.SettingsBuilt*
+- uid: ASE_Assignment.AppIntBuilder.#ctor
+  commentId: M:ASE_Assignment.AppIntBuilder.#ctor
+  id: '#ctor'
+  parent: ASE_Assignment.AppIntBuilder
+  langs:
+  - csharp
+  - vb
+  name: AppIntBuilder()
+  nameWithType: AppIntBuilder.AppIntBuilder()
+  fullName: ASE_Assignment.AppIntBuilder.AppIntBuilder()
+  type: Constructor
+  source:
+    remote:
+      path: ASE Assignment/Design Pattern/AppIntBuilder.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
+    id: .ctor
+    path: ../ASE Assignment/Design Pattern/AppIntBuilder.cs
+    startLine: 12
+  assemblies:
+  - ASE Assignment
+  namespace: ASE_Assignment
+  syntax:
+    content: public AppIntBuilder()
+    content.vb: Public Sub New()
+  overload: ASE_Assignment.AppIntBuilder.#ctor*
+  nameWithType.vb: AppIntBuilder.New()
+  fullName.vb: ASE_Assignment.AppIntBuilder.New()
+  name.vb: New()
+- uid: ASE_Assignment.AppIntBuilder.BuildConfiguration
+  commentId: M:ASE_Assignment.AppIntBuilder.BuildConfiguration
+  id: BuildConfiguration
+  parent: ASE_Assignment.AppIntBuilder
+  langs:
+  - csharp
+  - vb
+  name: BuildConfiguration()
+  nameWithType: AppIntBuilder.BuildConfiguration()
+  fullName: ASE_Assignment.AppIntBuilder.BuildConfiguration()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment/Design Pattern/AppIntBuilder.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
+    id: BuildConfiguration
+    path: ../ASE Assignment/Design Pattern/AppIntBuilder.cs
+    startLine: 17
+  assemblies:
+  - ASE Assignment
+  namespace: ASE_Assignment
+  example: []
+  syntax:
+    content: public void BuildConfiguration()
+    content.vb: Public Sub BuildConfiguration()
+  overload: ASE_Assignment.AppIntBuilder.BuildConfiguration*
+  implements:
+  - ASE_Assignment.InterfaceAppIntBuilder.BuildConfiguration
+- uid: ASE_Assignment.AppIntBuilder.BuildDependencies
+  commentId: M:ASE_Assignment.AppIntBuilder.BuildDependencies
+  id: BuildDependencies
+  parent: ASE_Assignment.AppIntBuilder
+  langs:
+  - csharp
+  - vb
+  name: BuildDependencies()
+  nameWithType: AppIntBuilder.BuildDependencies()
+  fullName: ASE_Assignment.AppIntBuilder.BuildDependencies()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment/Design Pattern/AppIntBuilder.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
+    id: BuildDependencies
+    path: ../ASE Assignment/Design Pattern/AppIntBuilder.cs
+    startLine: 23
+  assemblies:
+  - ASE Assignment
+  namespace: ASE_Assignment
+  example: []
+  syntax:
+    content: public void BuildDependencies()
+    content.vb: Public Sub BuildDependencies()
+  overload: ASE_Assignment.AppIntBuilder.BuildDependencies*
+  implements:
+  - ASE_Assignment.InterfaceAppIntBuilder.BuildDependencies
+- uid: ASE_Assignment.AppIntBuilder.BuildSettings
+  commentId: M:ASE_Assignment.AppIntBuilder.BuildSettings
+  id: BuildSettings
+  parent: ASE_Assignment.AppIntBuilder
+  langs:
+  - csharp
+  - vb
+  name: BuildSettings()
+  nameWithType: AppIntBuilder.BuildSettings()
+  fullName: ASE_Assignment.AppIntBuilder.BuildSettings()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment/Design Pattern/AppIntBuilder.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
+    id: BuildSettings
+    path: ../ASE Assignment/Design Pattern/AppIntBuilder.cs
+    startLine: 29
+  assemblies:
+  - ASE Assignment
+  namespace: ASE_Assignment
+  example: []
+  syntax:
+    content: public void BuildSettings()
+    content.vb: Public Sub BuildSettings()
+  overload: ASE_Assignment.AppIntBuilder.BuildSettings*
+  implements:
+  - ASE_Assignment.InterfaceAppIntBuilder.BuildSettings
+- uid: ASE_Assignment.AppIntBuilder.GetAppInt
+  commentId: M:ASE_Assignment.AppIntBuilder.GetAppInt
+  id: GetAppInt
+  parent: ASE_Assignment.AppIntBuilder
+  langs:
+  - csharp
+  - vb
+  name: GetAppInt()
+  nameWithType: AppIntBuilder.GetAppInt()
+  fullName: ASE_Assignment.AppIntBuilder.GetAppInt()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment/Design Pattern/AppIntBuilder.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
+    id: GetAppInt
+    path: ../ASE Assignment/Design Pattern/AppIntBuilder.cs
+    startLine: 35
+  assemblies:
+  - ASE Assignment
+  namespace: ASE_Assignment
+  example: []
+  syntax:
+    content: public AppInt GetAppInt()
+    return:
+      type: ASE_Assignment.AppInt
+    content.vb: Public Function GetAppInt() As AppInt
+  overload: ASE_Assignment.AppIntBuilder.GetAppInt*
+  implements:
+  - ASE_Assignment.InterfaceAppIntBuilder.GetAppInt
+references:
+- uid: ASE_Assignment
+  commentId: N:ASE_Assignment
+  href: ASE_Assignment.html
+  name: ASE_Assignment
+  nameWithType: ASE_Assignment
+  fullName: ASE_Assignment
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ASE_Assignment.InterfaceAppIntBuilder
+  commentId: T:ASE_Assignment.InterfaceAppIntBuilder
+  parent: ASE_Assignment
+  href: ASE_Assignment.InterfaceAppIntBuilder.html
+  name: InterfaceAppIntBuilder
+  nameWithType: InterfaceAppIntBuilder
+  fullName: ASE_Assignment.InterfaceAppIntBuilder
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ASE_Assignment.AppIntBuilder.ConfigurationBuilt*
+  commentId: Overload:ASE_Assignment.AppIntBuilder.ConfigurationBuilt
+  href: ASE_Assignment.AppIntBuilder.html#ASE_Assignment_AppIntBuilder_ConfigurationBuilt
+  name: ConfigurationBuilt
+  nameWithType: AppIntBuilder.ConfigurationBuilt
+  fullName: ASE_Assignment.AppIntBuilder.ConfigurationBuilt
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: ASE_Assignment.AppIntBuilder.DependenciesBuilt*
+  commentId: Overload:ASE_Assignment.AppIntBuilder.DependenciesBuilt
+  href: ASE_Assignment.AppIntBuilder.html#ASE_Assignment_AppIntBuilder_DependenciesBuilt
+  name: DependenciesBuilt
+  nameWithType: AppIntBuilder.DependenciesBuilt
+  fullName: ASE_Assignment.AppIntBuilder.DependenciesBuilt
+- uid: ASE_Assignment.AppIntBuilder.SettingsBuilt*
+  commentId: Overload:ASE_Assignment.AppIntBuilder.SettingsBuilt
+  href: ASE_Assignment.AppIntBuilder.html#ASE_Assignment_AppIntBuilder_SettingsBuilt
+  name: SettingsBuilt
+  nameWithType: AppIntBuilder.SettingsBuilt
+  fullName: ASE_Assignment.AppIntBuilder.SettingsBuilt
+- uid: ASE_Assignment.AppIntBuilder.#ctor*
+  commentId: Overload:ASE_Assignment.AppIntBuilder.#ctor
+  href: ASE_Assignment.AppIntBuilder.html#ASE_Assignment_AppIntBuilder__ctor
+  name: AppIntBuilder
+  nameWithType: AppIntBuilder.AppIntBuilder
+  fullName: ASE_Assignment.AppIntBuilder.AppIntBuilder
+  nameWithType.vb: AppIntBuilder.New
+  fullName.vb: ASE_Assignment.AppIntBuilder.New
+  name.vb: New
+- uid: ASE_Assignment.AppIntBuilder.BuildConfiguration*
+  commentId: Overload:ASE_Assignment.AppIntBuilder.BuildConfiguration
+  href: ASE_Assignment.AppIntBuilder.html#ASE_Assignment_AppIntBuilder_BuildConfiguration
+  name: BuildConfiguration
+  nameWithType: AppIntBuilder.BuildConfiguration
+  fullName: ASE_Assignment.AppIntBuilder.BuildConfiguration
+- uid: ASE_Assignment.InterfaceAppIntBuilder.BuildConfiguration
+  commentId: M:ASE_Assignment.InterfaceAppIntBuilder.BuildConfiguration
+  parent: ASE_Assignment.InterfaceAppIntBuilder
+  href: ASE_Assignment.InterfaceAppIntBuilder.html#ASE_Assignment_InterfaceAppIntBuilder_BuildConfiguration
+  name: BuildConfiguration()
+  nameWithType: InterfaceAppIntBuilder.BuildConfiguration()
+  fullName: ASE_Assignment.InterfaceAppIntBuilder.BuildConfiguration()
+  spec.csharp:
+  - uid: ASE_Assignment.InterfaceAppIntBuilder.BuildConfiguration
+    name: BuildConfiguration
+    href: ASE_Assignment.InterfaceAppIntBuilder.html#ASE_Assignment_InterfaceAppIntBuilder_BuildConfiguration
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ASE_Assignment.InterfaceAppIntBuilder.BuildConfiguration
+    name: BuildConfiguration
+    href: ASE_Assignment.InterfaceAppIntBuilder.html#ASE_Assignment_InterfaceAppIntBuilder_BuildConfiguration
+  - name: (
+  - name: )
+- uid: ASE_Assignment.AppIntBuilder.BuildDependencies*
+  commentId: Overload:ASE_Assignment.AppIntBuilder.BuildDependencies
+  href: ASE_Assignment.AppIntBuilder.html#ASE_Assignment_AppIntBuilder_BuildDependencies
+  name: BuildDependencies
+  nameWithType: AppIntBuilder.BuildDependencies
+  fullName: ASE_Assignment.AppIntBuilder.BuildDependencies
+- uid: ASE_Assignment.InterfaceAppIntBuilder.BuildDependencies
+  commentId: M:ASE_Assignment.InterfaceAppIntBuilder.BuildDependencies
+  parent: ASE_Assignment.InterfaceAppIntBuilder
+  href: ASE_Assignment.InterfaceAppIntBuilder.html#ASE_Assignment_InterfaceAppIntBuilder_BuildDependencies
+  name: BuildDependencies()
+  nameWithType: InterfaceAppIntBuilder.BuildDependencies()
+  fullName: ASE_Assignment.InterfaceAppIntBuilder.BuildDependencies()
+  spec.csharp:
+  - uid: ASE_Assignment.InterfaceAppIntBuilder.BuildDependencies
+    name: BuildDependencies
+    href: ASE_Assignment.InterfaceAppIntBuilder.html#ASE_Assignment_InterfaceAppIntBuilder_BuildDependencies
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ASE_Assignment.InterfaceAppIntBuilder.BuildDependencies
+    name: BuildDependencies
+    href: ASE_Assignment.InterfaceAppIntBuilder.html#ASE_Assignment_InterfaceAppIntBuilder_BuildDependencies
+  - name: (
+  - name: )
+- uid: ASE_Assignment.AppIntBuilder.BuildSettings*
+  commentId: Overload:ASE_Assignment.AppIntBuilder.BuildSettings
+  href: ASE_Assignment.AppIntBuilder.html#ASE_Assignment_AppIntBuilder_BuildSettings
+  name: BuildSettings
+  nameWithType: AppIntBuilder.BuildSettings
+  fullName: ASE_Assignment.AppIntBuilder.BuildSettings
+- uid: ASE_Assignment.InterfaceAppIntBuilder.BuildSettings
+  commentId: M:ASE_Assignment.InterfaceAppIntBuilder.BuildSettings
+  parent: ASE_Assignment.InterfaceAppIntBuilder
+  href: ASE_Assignment.InterfaceAppIntBuilder.html#ASE_Assignment_InterfaceAppIntBuilder_BuildSettings
+  name: BuildSettings()
+  nameWithType: InterfaceAppIntBuilder.BuildSettings()
+  fullName: ASE_Assignment.InterfaceAppIntBuilder.BuildSettings()
+  spec.csharp:
+  - uid: ASE_Assignment.InterfaceAppIntBuilder.BuildSettings
+    name: BuildSettings
+    href: ASE_Assignment.InterfaceAppIntBuilder.html#ASE_Assignment_InterfaceAppIntBuilder_BuildSettings
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ASE_Assignment.InterfaceAppIntBuilder.BuildSettings
+    name: BuildSettings
+    href: ASE_Assignment.InterfaceAppIntBuilder.html#ASE_Assignment_InterfaceAppIntBuilder_BuildSettings
+  - name: (
+  - name: )
+- uid: ASE_Assignment.AppIntBuilder.GetAppInt*
+  commentId: Overload:ASE_Assignment.AppIntBuilder.GetAppInt
+  href: ASE_Assignment.AppIntBuilder.html#ASE_Assignment_AppIntBuilder_GetAppInt
+  name: GetAppInt
+  nameWithType: AppIntBuilder.GetAppInt
+  fullName: ASE_Assignment.AppIntBuilder.GetAppInt
+- uid: ASE_Assignment.InterfaceAppIntBuilder.GetAppInt
+  commentId: M:ASE_Assignment.InterfaceAppIntBuilder.GetAppInt
+  parent: ASE_Assignment.InterfaceAppIntBuilder
+  href: ASE_Assignment.InterfaceAppIntBuilder.html#ASE_Assignment_InterfaceAppIntBuilder_GetAppInt
+  name: GetAppInt()
+  nameWithType: InterfaceAppIntBuilder.GetAppInt()
+  fullName: ASE_Assignment.InterfaceAppIntBuilder.GetAppInt()
+  spec.csharp:
+  - uid: ASE_Assignment.InterfaceAppIntBuilder.GetAppInt
+    name: GetAppInt
+    href: ASE_Assignment.InterfaceAppIntBuilder.html#ASE_Assignment_InterfaceAppIntBuilder_GetAppInt
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ASE_Assignment.InterfaceAppIntBuilder.GetAppInt
+    name: GetAppInt
+    href: ASE_Assignment.InterfaceAppIntBuilder.html#ASE_Assignment_InterfaceAppIntBuilder_GetAppInt
+  - name: (
+  - name: )
+- uid: ASE_Assignment.AppInt
+  commentId: T:ASE_Assignment.AppInt
+  parent: ASE_Assignment
+  href: ASE_Assignment.AppInt.html
+  name: AppInt
+  nameWithType: AppInt
+  fullName: ASE_Assignment.AppInt

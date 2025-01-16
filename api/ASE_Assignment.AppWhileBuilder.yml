@@ -1,0 +1,504 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_Assignment.AppWhileBuilder
+  commentId: T:ASE_Assignment.AppWhileBuilder
+  id: AppWhileBuilder
+  parent: ASE_Assignment
+  children:
+  - ASE_Assignment.AppWhileBuilder.#ctor
+  - ASE_Assignment.AppWhileBuilder.BuildBody
+  - ASE_Assignment.AppWhileBuilder.BuildCondition
+  - ASE_Assignment.AppWhileBuilder.GetAppWhile
+  langs:
+  - csharp
+  - vb
+  name: AppWhileBuilder
+  nameWithType: AppWhileBuilder
+  fullName: ASE_Assignment.AppWhileBuilder
+  type: Class
+  source:
+    remote:
+      path: ASE Assignment/Design Pattern/AppWhileBuilder.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
+    id: AppWhileBuilder
+    path: ../ASE Assignment/Design Pattern/AppWhileBuilder.cs
+    startLine: 8
+  assemblies:
+  - ASE Assignment
+  namespace: ASE_Assignment
+  syntax:
+    content: 'public class AppWhileBuilder : InterfaceAppWhileBuilder'
+    content.vb: Public Class AppWhileBuilder Implements InterfaceAppWhileBuilder
+  inheritance:
+  - System.Object
+  implements:
+  - ASE_Assignment.InterfaceAppWhileBuilder
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: ASE_Assignment.AppWhileBuilder.#ctor
+  commentId: M:ASE_Assignment.AppWhileBuilder.#ctor
+  id: '#ctor'
+  parent: ASE_Assignment.AppWhileBuilder
+  langs:
+  - csharp
+  - vb
+  name: AppWhileBuilder()
+  nameWithType: AppWhileBuilder.AppWhileBuilder()
+  fullName: ASE_Assignment.AppWhileBuilder.AppWhileBuilder()
+  type: Constructor
+  source:
+    remote:
+      path: ASE Assignment/Design Pattern/AppWhileBuilder.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
+    id: .ctor
+    path: ../ASE Assignment/Design Pattern/AppWhileBuilder.cs
+    startLine: 12
+  assemblies:
+  - ASE Assignment
+  namespace: ASE_Assignment
+  syntax:
+    content: public AppWhileBuilder()
+    content.vb: Public Sub New()
+  overload: ASE_Assignment.AppWhileBuilder.#ctor*
+  nameWithType.vb: AppWhileBuilder.New()
+  fullName.vb: ASE_Assignment.AppWhileBuilder.New()
+  name.vb: New()
+- uid: ASE_Assignment.AppWhileBuilder.BuildCondition
+  commentId: M:ASE_Assignment.AppWhileBuilder.BuildCondition
+  id: BuildCondition
+  parent: ASE_Assignment.AppWhileBuilder
+  langs:
+  - csharp
+  - vb
+  name: BuildCondition()
+  nameWithType: AppWhileBuilder.BuildCondition()
+  fullName: ASE_Assignment.AppWhileBuilder.BuildCondition()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment/Design Pattern/AppWhileBuilder.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
+    id: BuildCondition
+    path: ../ASE Assignment/Design Pattern/AppWhileBuilder.cs
+    startLine: 17
+  assemblies:
+  - ASE Assignment
+  namespace: ASE_Assignment
+  example: []
+  syntax:
+    content: public void BuildCondition()
+    content.vb: Public Sub BuildCondition()
+  overload: ASE_Assignment.AppWhileBuilder.BuildCondition*
+  implements:
+  - ASE_Assignment.InterfaceAppWhileBuilder.BuildCondition
+- uid: ASE_Assignment.AppWhileBuilder.BuildBody
+  commentId: M:ASE_Assignment.AppWhileBuilder.BuildBody
+  id: BuildBody
+  parent: ASE_Assignment.AppWhileBuilder
+  langs:
+  - csharp
+  - vb
+  name: BuildBody()
+  nameWithType: AppWhileBuilder.BuildBody()
+  fullName: ASE_Assignment.AppWhileBuilder.BuildBody()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment/Design Pattern/AppWhileBuilder.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
+    id: BuildBody
+    path: ../ASE Assignment/Design Pattern/AppWhileBuilder.cs
+    startLine: 22
+  assemblies:
+  - ASE Assignment
+  namespace: ASE_Assignment
+  example: []
+  syntax:
+    content: public void BuildBody()
+    content.vb: Public Sub BuildBody()
+  overload: ASE_Assignment.AppWhileBuilder.BuildBody*
+  implements:
+  - ASE_Assignment.InterfaceAppWhileBuilder.BuildBody
+- uid: ASE_Assignment.AppWhileBuilder.GetAppWhile
+  commentId: M:ASE_Assignment.AppWhileBuilder.GetAppWhile
+  id: GetAppWhile
+  parent: ASE_Assignment.AppWhileBuilder
+  langs:
+  - csharp
+  - vb
+  name: GetAppWhile()
+  nameWithType: AppWhileBuilder.GetAppWhile()
+  fullName: ASE_Assignment.AppWhileBuilder.GetAppWhile()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment/Design Pattern/AppWhileBuilder.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
+    id: GetAppWhile
+    path: ../ASE Assignment/Design Pattern/AppWhileBuilder.cs
+    startLine: 27
+  assemblies:
+  - ASE Assignment
+  namespace: ASE_Assignment
+  example: []
+  syntax:
+    content: public AppWhile GetAppWhile()
+    return:
+      type: ASE_Assignment.AppWhile
+    content.vb: Public Function GetAppWhile() As AppWhile
+  overload: ASE_Assignment.AppWhileBuilder.GetAppWhile*
+  implements:
+  - ASE_Assignment.InterfaceAppWhileBuilder.GetAppWhile
+references:
+- uid: ASE_Assignment
+  commentId: N:ASE_Assignment
+  href: ASE_Assignment.html
+  name: ASE_Assignment
+  nameWithType: ASE_Assignment
+  fullName: ASE_Assignment
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ASE_Assignment.InterfaceAppWhileBuilder
+  commentId: T:ASE_Assignment.InterfaceAppWhileBuilder
+  parent: ASE_Assignment
+  href: ASE_Assignment.InterfaceAppWhileBuilder.html
+  name: InterfaceAppWhileBuilder
+  nameWithType: InterfaceAppWhileBuilder
+  fullName: ASE_Assignment.InterfaceAppWhileBuilder
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ASE_Assignment.AppWhileBuilder.#ctor*
+  commentId: Overload:ASE_Assignment.AppWhileBuilder.#ctor
+  href: ASE_Assignment.AppWhileBuilder.html#ASE_Assignment_AppWhileBuilder__ctor
+  name: AppWhileBuilder
+  nameWithType: AppWhileBuilder.AppWhileBuilder
+  fullName: ASE_Assignment.AppWhileBuilder.AppWhileBuilder
+  nameWithType.vb: AppWhileBuilder.New
+  fullName.vb: ASE_Assignment.AppWhileBuilder.New
+  name.vb: New
+- uid: ASE_Assignment.AppWhileBuilder.BuildCondition*
+  commentId: Overload:ASE_Assignment.AppWhileBuilder.BuildCondition
+  href: ASE_Assignment.AppWhileBuilder.html#ASE_Assignment_AppWhileBuilder_BuildCondition
+  name: BuildCondition
+  nameWithType: AppWhileBuilder.BuildCondition
+  fullName: ASE_Assignment.AppWhileBuilder.BuildCondition
+- uid: ASE_Assignment.InterfaceAppWhileBuilder.BuildCondition
+  commentId: M:ASE_Assignment.InterfaceAppWhileBuilder.BuildCondition
+  parent: ASE_Assignment.InterfaceAppWhileBuilder
+  href: ASE_Assignment.InterfaceAppWhileBuilder.html#ASE_Assignment_InterfaceAppWhileBuilder_BuildCondition
+  name: BuildCondition()
+  nameWithType: InterfaceAppWhileBuilder.BuildCondition()
+  fullName: ASE_Assignment.InterfaceAppWhileBuilder.BuildCondition()
+  spec.csharp:
+  - uid: ASE_Assignment.InterfaceAppWhileBuilder.BuildCondition
+    name: BuildCondition
+    href: ASE_Assignment.InterfaceAppWhileBuilder.html#ASE_Assignment_InterfaceAppWhileBuilder_BuildCondition
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ASE_Assignment.InterfaceAppWhileBuilder.BuildCondition
+    name: BuildCondition
+    href: ASE_Assignment.InterfaceAppWhileBuilder.html#ASE_Assignment_InterfaceAppWhileBuilder_BuildCondition
+  - name: (
+  - name: )
+- uid: ASE_Assignment.AppWhileBuilder.BuildBody*
+  commentId: Overload:ASE_Assignment.AppWhileBuilder.BuildBody
+  href: ASE_Assignment.AppWhileBuilder.html#ASE_Assignment_AppWhileBuilder_BuildBody
+  name: BuildBody
+  nameWithType: AppWhileBuilder.BuildBody
+  fullName: ASE_Assignment.AppWhileBuilder.BuildBody
+- uid: ASE_Assignment.InterfaceAppWhileBuilder.BuildBody
+  commentId: M:ASE_Assignment.InterfaceAppWhileBuilder.BuildBody
+  parent: ASE_Assignment.InterfaceAppWhileBuilder
+  href: ASE_Assignment.InterfaceAppWhileBuilder.html#ASE_Assignment_InterfaceAppWhileBuilder_BuildBody
+  name: BuildBody()
+  nameWithType: InterfaceAppWhileBuilder.BuildBody()
+  fullName: ASE_Assignment.InterfaceAppWhileBuilder.BuildBody()
+  spec.csharp:
+  - uid: ASE_Assignment.InterfaceAppWhileBuilder.BuildBody
+    name: BuildBody
+    href: ASE_Assignment.InterfaceAppWhileBuilder.html#ASE_Assignment_InterfaceAppWhileBuilder_BuildBody
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ASE_Assignment.InterfaceAppWhileBuilder.BuildBody
+    name: BuildBody
+    href: ASE_Assignment.InterfaceAppWhileBuilder.html#ASE_Assignment_InterfaceAppWhileBuilder_BuildBody
+  - name: (
+  - name: )
+- uid: ASE_Assignment.AppWhileBuilder.GetAppWhile*
+  commentId: Overload:ASE_Assignment.AppWhileBuilder.GetAppWhile
+  href: ASE_Assignment.AppWhileBuilder.html#ASE_Assignment_AppWhileBuilder_GetAppWhile
+  name: GetAppWhile
+  nameWithType: AppWhileBuilder.GetAppWhile
+  fullName: ASE_Assignment.AppWhileBuilder.GetAppWhile
+- uid: ASE_Assignment.InterfaceAppWhileBuilder.GetAppWhile
+  commentId: M:ASE_Assignment.InterfaceAppWhileBuilder.GetAppWhile
+  parent: ASE_Assignment.InterfaceAppWhileBuilder
+  href: ASE_Assignment.InterfaceAppWhileBuilder.html#ASE_Assignment_InterfaceAppWhileBuilder_GetAppWhile
+  name: GetAppWhile()
+  nameWithType: InterfaceAppWhileBuilder.GetAppWhile()
+  fullName: ASE_Assignment.InterfaceAppWhileBuilder.GetAppWhile()
+  spec.csharp:
+  - uid: ASE_Assignment.InterfaceAppWhileBuilder.GetAppWhile
+    name: GetAppWhile
+    href: ASE_Assignment.InterfaceAppWhileBuilder.html#ASE_Assignment_InterfaceAppWhileBuilder_GetAppWhile
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ASE_Assignment.InterfaceAppWhileBuilder.GetAppWhile
+    name: GetAppWhile
+    href: ASE_Assignment.InterfaceAppWhileBuilder.html#ASE_Assignment_InterfaceAppWhileBuilder_GetAppWhile
+  - name: (
+  - name: )
+- uid: ASE_Assignment.AppWhile
+  commentId: T:ASE_Assignment.AppWhile
+  parent: ASE_Assignment
+  href: ASE_Assignment.AppWhile.html
+  name: AppWhile
+  nameWithType: AppWhile
+  fullName: ASE_Assignment.AppWhile

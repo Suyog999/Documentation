@@ -1,0 +1,894 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assignment_Test.TestFactoryCommand
+  commentId: T:Assignment_Test.TestFactoryCommand
+  id: TestFactoryCommand
+  parent: Assignment_Test
+  children:
+  - Assignment_Test.TestFactoryCommand.SetUp
+  - Assignment_Test.TestFactoryCommand.TestAppArray
+  - Assignment_Test.TestFactoryCommand.TestAppBool
+  - Assignment_Test.TestFactoryCommand.TestAppElse
+  - Assignment_Test.TestFactoryCommand.TestAppEnd
+  - Assignment_Test.TestFactoryCommand.TestAppFor
+  - Assignment_Test.TestFactoryCommand.TestAppIf
+  - Assignment_Test.TestFactoryCommand.TestAppInt
+  - Assignment_Test.TestFactoryCommand.TestAppMethod
+  - Assignment_Test.TestFactoryCommand.TestAppReal
+  - Assignment_Test.TestFactoryCommand.TestAppWhile
+  - Assignment_Test.TestFactoryCommand.TestBaseCommand
+  - Assignment_Test.TestFactoryCommand.TestReturnsAppWrite
+  - Assignment_Test.TestFactoryCommand.TestsAppTriangle
+  langs:
+  - csharp
+  - vb
+  name: TestFactoryCommand
+  nameWithType: TestFactoryCommand
+  fullName: Assignment_Test.TestFactoryCommand
+  type: Class
+  source:
+    remote:
+      path: Assignment Test/TestFactoryCommand.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
+    id: TestFactoryCommand
+    path: ../Assignment Test/TestFactoryCommand.cs
+    startLine: 8
+  assemblies:
+  - Assignment Test
+  namespace: Assignment_Test
+  syntax:
+    content: >-
+      [TestClass]
+
+      public class TestFactoryCommand
+    content.vb: >-
+      <TestClass>
+
+      Public Class TestFactoryCommand
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute.#ctor
+    arguments: []
+- uid: Assignment_Test.TestFactoryCommand.SetUp
+  commentId: M:Assignment_Test.TestFactoryCommand.SetUp
+  id: SetUp
+  parent: Assignment_Test.TestFactoryCommand
+  langs:
+  - csharp
+  - vb
+  name: SetUp()
+  nameWithType: TestFactoryCommand.SetUp()
+  fullName: Assignment_Test.TestFactoryCommand.SetUp()
+  type: Method
+  source:
+    remote:
+      path: Assignment Test/TestFactoryCommand.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
+    id: SetUp
+    path: ../Assignment Test/TestFactoryCommand.cs
+    startLine: 13
+  assemblies:
+  - Assignment Test
+  namespace: Assignment_Test
+  syntax:
+    content: >-
+      [TestInitialize]
+
+      public void SetUp()
+    content.vb: >-
+      <TestInitialize>
+
+      Public Sub SetUp()
+  overload: Assignment_Test.TestFactoryCommand.SetUp*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestInitializeAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestInitializeAttribute.#ctor
+    arguments: []
+- uid: Assignment_Test.TestFactoryCommand.TestsAppTriangle
+  commentId: M:Assignment_Test.TestFactoryCommand.TestsAppTriangle
+  id: TestsAppTriangle
+  parent: Assignment_Test.TestFactoryCommand
+  langs:
+  - csharp
+  - vb
+  name: TestsAppTriangle()
+  nameWithType: TestFactoryCommand.TestsAppTriangle()
+  fullName: Assignment_Test.TestFactoryCommand.TestsAppTriangle()
+  type: Method
+  source:
+    remote:
+      path: Assignment Test/TestFactoryCommand.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
+    id: TestsAppTriangle
+    path: ../Assignment Test/TestFactoryCommand.cs
+    startLine: 19
+  assemblies:
+  - Assignment Test
+  namespace: Assignment_Test
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestsAppTriangle()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestsAppTriangle()
+  overload: Assignment_Test.TestFactoryCommand.TestsAppTriangle*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: Assignment_Test.TestFactoryCommand.TestReturnsAppWrite
+  commentId: M:Assignment_Test.TestFactoryCommand.TestReturnsAppWrite
+  id: TestReturnsAppWrite
+  parent: Assignment_Test.TestFactoryCommand
+  langs:
+  - csharp
+  - vb
+  name: TestReturnsAppWrite()
+  nameWithType: TestFactoryCommand.TestReturnsAppWrite()
+  fullName: Assignment_Test.TestFactoryCommand.TestReturnsAppWrite()
+  type: Method
+  source:
+    remote:
+      path: Assignment Test/TestFactoryCommand.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
+    id: TestReturnsAppWrite
+    path: ../Assignment Test/TestFactoryCommand.cs
+    startLine: 28
+  assemblies:
+  - Assignment Test
+  namespace: Assignment_Test
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestReturnsAppWrite()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestReturnsAppWrite()
+  overload: Assignment_Test.TestFactoryCommand.TestReturnsAppWrite*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: Assignment_Test.TestFactoryCommand.TestAppInt
+  commentId: M:Assignment_Test.TestFactoryCommand.TestAppInt
+  id: TestAppInt
+  parent: Assignment_Test.TestFactoryCommand
+  langs:
+  - csharp
+  - vb
+  name: TestAppInt()
+  nameWithType: TestFactoryCommand.TestAppInt()
+  fullName: Assignment_Test.TestFactoryCommand.TestAppInt()
+  type: Method
+  source:
+    remote:
+      path: Assignment Test/TestFactoryCommand.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
+    id: TestAppInt
+    path: ../Assignment Test/TestFactoryCommand.cs
+    startLine: 38
+  assemblies:
+  - Assignment Test
+  namespace: Assignment_Test
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestAppInt()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestAppInt()
+  overload: Assignment_Test.TestFactoryCommand.TestAppInt*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: Assignment_Test.TestFactoryCommand.TestAppReal
+  commentId: M:Assignment_Test.TestFactoryCommand.TestAppReal
+  id: TestAppReal
+  parent: Assignment_Test.TestFactoryCommand
+  langs:
+  - csharp
+  - vb
+  name: TestAppReal()
+  nameWithType: TestFactoryCommand.TestAppReal()
+  fullName: Assignment_Test.TestFactoryCommand.TestAppReal()
+  type: Method
+  source:
+    remote:
+      path: Assignment Test/TestFactoryCommand.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
+    id: TestAppReal
+    path: ../Assignment Test/TestFactoryCommand.cs
+    startLine: 48
+  assemblies:
+  - Assignment Test
+  namespace: Assignment_Test
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestAppReal()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestAppReal()
+  overload: Assignment_Test.TestFactoryCommand.TestAppReal*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: Assignment_Test.TestFactoryCommand.TestAppArray
+  commentId: M:Assignment_Test.TestFactoryCommand.TestAppArray
+  id: TestAppArray
+  parent: Assignment_Test.TestFactoryCommand
+  langs:
+  - csharp
+  - vb
+  name: TestAppArray()
+  nameWithType: TestFactoryCommand.TestAppArray()
+  fullName: Assignment_Test.TestFactoryCommand.TestAppArray()
+  type: Method
+  source:
+    remote:
+      path: Assignment Test/TestFactoryCommand.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
+    id: TestAppArray
+    path: ../Assignment Test/TestFactoryCommand.cs
+    startLine: 58
+  assemblies:
+  - Assignment Test
+  namespace: Assignment_Test
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestAppArray()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestAppArray()
+  overload: Assignment_Test.TestFactoryCommand.TestAppArray*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: Assignment_Test.TestFactoryCommand.TestAppWhile
+  commentId: M:Assignment_Test.TestFactoryCommand.TestAppWhile
+  id: TestAppWhile
+  parent: Assignment_Test.TestFactoryCommand
+  langs:
+  - csharp
+  - vb
+  name: TestAppWhile()
+  nameWithType: TestFactoryCommand.TestAppWhile()
+  fullName: Assignment_Test.TestFactoryCommand.TestAppWhile()
+  type: Method
+  source:
+    remote:
+      path: Assignment Test/TestFactoryCommand.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
+    id: TestAppWhile
+    path: ../Assignment Test/TestFactoryCommand.cs
+    startLine: 68
+  assemblies:
+  - Assignment Test
+  namespace: Assignment_Test
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestAppWhile()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestAppWhile()
+  overload: Assignment_Test.TestFactoryCommand.TestAppWhile*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: Assignment_Test.TestFactoryCommand.TestAppIf
+  commentId: M:Assignment_Test.TestFactoryCommand.TestAppIf
+  id: TestAppIf
+  parent: Assignment_Test.TestFactoryCommand
+  langs:
+  - csharp
+  - vb
+  name: TestAppIf()
+  nameWithType: TestFactoryCommand.TestAppIf()
+  fullName: Assignment_Test.TestFactoryCommand.TestAppIf()
+  type: Method
+  source:
+    remote:
+      path: Assignment Test/TestFactoryCommand.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
+    id: TestAppIf
+    path: ../Assignment Test/TestFactoryCommand.cs
+    startLine: 78
+  assemblies:
+  - Assignment Test
+  namespace: Assignment_Test
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestAppIf()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestAppIf()
+  overload: Assignment_Test.TestFactoryCommand.TestAppIf*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: Assignment_Test.TestFactoryCommand.TestAppEnd
+  commentId: M:Assignment_Test.TestFactoryCommand.TestAppEnd
+  id: TestAppEnd
+  parent: Assignment_Test.TestFactoryCommand
+  langs:
+  - csharp
+  - vb
+  name: TestAppEnd()
+  nameWithType: TestFactoryCommand.TestAppEnd()
+  fullName: Assignment_Test.TestFactoryCommand.TestAppEnd()
+  type: Method
+  source:
+    remote:
+      path: Assignment Test/TestFactoryCommand.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
+    id: TestAppEnd
+    path: ../Assignment Test/TestFactoryCommand.cs
+    startLine: 88
+  assemblies:
+  - Assignment Test
+  namespace: Assignment_Test
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestAppEnd()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestAppEnd()
+  overload: Assignment_Test.TestFactoryCommand.TestAppEnd*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: Assignment_Test.TestFactoryCommand.TestAppElse
+  commentId: M:Assignment_Test.TestFactoryCommand.TestAppElse
+  id: TestAppElse
+  parent: Assignment_Test.TestFactoryCommand
+  langs:
+  - csharp
+  - vb
+  name: TestAppElse()
+  nameWithType: TestFactoryCommand.TestAppElse()
+  fullName: Assignment_Test.TestFactoryCommand.TestAppElse()
+  type: Method
+  source:
+    remote:
+      path: Assignment Test/TestFactoryCommand.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
+    id: TestAppElse
+    path: ../Assignment Test/TestFactoryCommand.cs
+    startLine: 98
+  assemblies:
+  - Assignment Test
+  namespace: Assignment_Test
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestAppElse()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestAppElse()
+  overload: Assignment_Test.TestFactoryCommand.TestAppElse*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: Assignment_Test.TestFactoryCommand.TestAppFor
+  commentId: M:Assignment_Test.TestFactoryCommand.TestAppFor
+  id: TestAppFor
+  parent: Assignment_Test.TestFactoryCommand
+  langs:
+  - csharp
+  - vb
+  name: TestAppFor()
+  nameWithType: TestFactoryCommand.TestAppFor()
+  fullName: Assignment_Test.TestFactoryCommand.TestAppFor()
+  type: Method
+  source:
+    remote:
+      path: Assignment Test/TestFactoryCommand.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
+    id: TestAppFor
+    path: ../Assignment Test/TestFactoryCommand.cs
+    startLine: 108
+  assemblies:
+  - Assignment Test
+  namespace: Assignment_Test
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestAppFor()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestAppFor()
+  overload: Assignment_Test.TestFactoryCommand.TestAppFor*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: Assignment_Test.TestFactoryCommand.TestAppBool
+  commentId: M:Assignment_Test.TestFactoryCommand.TestAppBool
+  id: TestAppBool
+  parent: Assignment_Test.TestFactoryCommand
+  langs:
+  - csharp
+  - vb
+  name: TestAppBool()
+  nameWithType: TestFactoryCommand.TestAppBool()
+  fullName: Assignment_Test.TestFactoryCommand.TestAppBool()
+  type: Method
+  source:
+    remote:
+      path: Assignment Test/TestFactoryCommand.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
+    id: TestAppBool
+    path: ../Assignment Test/TestFactoryCommand.cs
+    startLine: 128
+  assemblies:
+  - Assignment Test
+  namespace: Assignment_Test
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestAppBool()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestAppBool()
+  overload: Assignment_Test.TestFactoryCommand.TestAppBool*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: Assignment_Test.TestFactoryCommand.TestBaseCommand
+  commentId: M:Assignment_Test.TestFactoryCommand.TestBaseCommand
+  id: TestBaseCommand
+  parent: Assignment_Test.TestFactoryCommand
+  langs:
+  - csharp
+  - vb
+  name: TestBaseCommand()
+  nameWithType: TestFactoryCommand.TestBaseCommand()
+  fullName: Assignment_Test.TestFactoryCommand.TestBaseCommand()
+  type: Method
+  source:
+    remote:
+      path: Assignment Test/TestFactoryCommand.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
+    id: TestBaseCommand
+    path: ../Assignment Test/TestFactoryCommand.cs
+    startLine: 138
+  assemblies:
+  - Assignment Test
+  namespace: Assignment_Test
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestBaseCommand()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestBaseCommand()
+  overload: Assignment_Test.TestFactoryCommand.TestBaseCommand*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: Assignment_Test.TestFactoryCommand.TestAppMethod
+  commentId: M:Assignment_Test.TestFactoryCommand.TestAppMethod
+  id: TestAppMethod
+  parent: Assignment_Test.TestFactoryCommand
+  langs:
+  - csharp
+  - vb
+  name: TestAppMethod()
+  nameWithType: TestFactoryCommand.TestAppMethod()
+  fullName: Assignment_Test.TestFactoryCommand.TestAppMethod()
+  type: Method
+  source:
+    remote:
+      path: Assignment Test/TestFactoryCommand.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
+    id: TestAppMethod
+    path: ../../ase-demo-assignment-Suyog999 - Copy/Assignment Test/TestFactoryCommand.cs
+    startLine: 117
+  assemblies:
+  - Assignment Test
+  namespace: Assignment_Test
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestAppMethod()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestAppMethod()
+  overload: Assignment_Test.TestFactoryCommand.TestAppMethod*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+references:
+- uid: Assignment_Test
+  commentId: N:Assignment_Test
+  href: Assignment_Test.html
+  name: Assignment_Test
+  nameWithType: Assignment_Test
+  fullName: Assignment_Test
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Assignment_Test.TestFactoryCommand.SetUp*
+  commentId: Overload:Assignment_Test.TestFactoryCommand.SetUp
+  href: Assignment_Test.TestFactoryCommand.html#Assignment_Test_TestFactoryCommand_SetUp
+  name: SetUp
+  nameWithType: TestFactoryCommand.SetUp
+  fullName: Assignment_Test.TestFactoryCommand.SetUp
+- uid: Assignment_Test.TestFactoryCommand.TestsAppTriangle*
+  commentId: Overload:Assignment_Test.TestFactoryCommand.TestsAppTriangle
+  href: Assignment_Test.TestFactoryCommand.html#Assignment_Test_TestFactoryCommand_TestsAppTriangle
+  name: TestsAppTriangle
+  nameWithType: TestFactoryCommand.TestsAppTriangle
+  fullName: Assignment_Test.TestFactoryCommand.TestsAppTriangle
+- uid: Assignment_Test.TestFactoryCommand.TestReturnsAppWrite*
+  commentId: Overload:Assignment_Test.TestFactoryCommand.TestReturnsAppWrite
+  href: Assignment_Test.TestFactoryCommand.html#Assignment_Test_TestFactoryCommand_TestReturnsAppWrite
+  name: TestReturnsAppWrite
+  nameWithType: TestFactoryCommand.TestReturnsAppWrite
+  fullName: Assignment_Test.TestFactoryCommand.TestReturnsAppWrite
+- uid: Assignment_Test.TestFactoryCommand.TestAppInt*
+  commentId: Overload:Assignment_Test.TestFactoryCommand.TestAppInt
+  href: Assignment_Test.TestFactoryCommand.html#Assignment_Test_TestFactoryCommand_TestAppInt
+  name: TestAppInt
+  nameWithType: TestFactoryCommand.TestAppInt
+  fullName: Assignment_Test.TestFactoryCommand.TestAppInt
+- uid: Assignment_Test.TestFactoryCommand.TestAppReal*
+  commentId: Overload:Assignment_Test.TestFactoryCommand.TestAppReal
+  href: Assignment_Test.TestFactoryCommand.html#Assignment_Test_TestFactoryCommand_TestAppReal
+  name: TestAppReal
+  nameWithType: TestFactoryCommand.TestAppReal
+  fullName: Assignment_Test.TestFactoryCommand.TestAppReal
+- uid: Assignment_Test.TestFactoryCommand.TestAppArray*
+  commentId: Overload:Assignment_Test.TestFactoryCommand.TestAppArray
+  href: Assignment_Test.TestFactoryCommand.html#Assignment_Test_TestFactoryCommand_TestAppArray
+  name: TestAppArray
+  nameWithType: TestFactoryCommand.TestAppArray
+  fullName: Assignment_Test.TestFactoryCommand.TestAppArray
+- uid: Assignment_Test.TestFactoryCommand.TestAppWhile*
+  commentId: Overload:Assignment_Test.TestFactoryCommand.TestAppWhile
+  href: Assignment_Test.TestFactoryCommand.html#Assignment_Test_TestFactoryCommand_TestAppWhile
+  name: TestAppWhile
+  nameWithType: TestFactoryCommand.TestAppWhile
+  fullName: Assignment_Test.TestFactoryCommand.TestAppWhile
+- uid: Assignment_Test.TestFactoryCommand.TestAppIf*
+  commentId: Overload:Assignment_Test.TestFactoryCommand.TestAppIf
+  href: Assignment_Test.TestFactoryCommand.html#Assignment_Test_TestFactoryCommand_TestAppIf
+  name: TestAppIf
+  nameWithType: TestFactoryCommand.TestAppIf
+  fullName: Assignment_Test.TestFactoryCommand.TestAppIf
+- uid: Assignment_Test.TestFactoryCommand.TestAppEnd*
+  commentId: Overload:Assignment_Test.TestFactoryCommand.TestAppEnd
+  href: Assignment_Test.TestFactoryCommand.html#Assignment_Test_TestFactoryCommand_TestAppEnd
+  name: TestAppEnd
+  nameWithType: TestFactoryCommand.TestAppEnd
+  fullName: Assignment_Test.TestFactoryCommand.TestAppEnd
+- uid: Assignment_Test.TestFactoryCommand.TestAppElse*
+  commentId: Overload:Assignment_Test.TestFactoryCommand.TestAppElse
+  href: Assignment_Test.TestFactoryCommand.html#Assignment_Test_TestFactoryCommand_TestAppElse
+  name: TestAppElse
+  nameWithType: TestFactoryCommand.TestAppElse
+  fullName: Assignment_Test.TestFactoryCommand.TestAppElse
+- uid: Assignment_Test.TestFactoryCommand.TestAppFor*
+  commentId: Overload:Assignment_Test.TestFactoryCommand.TestAppFor
+  href: Assignment_Test.TestFactoryCommand.html#Assignment_Test_TestFactoryCommand_TestAppFor
+  name: TestAppFor
+  nameWithType: TestFactoryCommand.TestAppFor
+  fullName: Assignment_Test.TestFactoryCommand.TestAppFor
+- uid: Assignment_Test.TestFactoryCommand.TestAppBool*
+  commentId: Overload:Assignment_Test.TestFactoryCommand.TestAppBool
+  href: Assignment_Test.TestFactoryCommand.html#Assignment_Test_TestFactoryCommand_TestAppBool
+  name: TestAppBool
+  nameWithType: TestFactoryCommand.TestAppBool
+  fullName: Assignment_Test.TestFactoryCommand.TestAppBool
+- uid: Assignment_Test.TestFactoryCommand.TestBaseCommand*
+  commentId: Overload:Assignment_Test.TestFactoryCommand.TestBaseCommand
+  href: Assignment_Test.TestFactoryCommand.html#Assignment_Test_TestFactoryCommand_TestBaseCommand
+  name: TestBaseCommand
+  nameWithType: TestFactoryCommand.TestBaseCommand
+  fullName: Assignment_Test.TestFactoryCommand.TestBaseCommand
+- uid: Assignment_Test.TestFactoryCommand.TestAppMethod*
+  commentId: Overload:Assignment_Test.TestFactoryCommand.TestAppMethod
+  href: Assignment_Test.TestFactoryCommand.html#Assignment_Test_TestFactoryCommand_TestAppMethod
+  name: TestAppMethod
+  nameWithType: TestFactoryCommand.TestAppMethod
+  fullName: Assignment_Test.TestFactoryCommand.TestAppMethod

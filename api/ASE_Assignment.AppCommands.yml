@@ -1,0 +1,79 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_Assignment.AppCommands
+  commentId: N:ASE_Assignment.AppCommands
+  id: ASE_Assignment.AppCommands
+  children:
+  - ASE_Assignment.AppCommands.AppArray
+  - ASE_Assignment.AppCommands.AppBool
+  - ASE_Assignment.AppCommands.AppElse
+  - ASE_Assignment.AppCommands.AppEnd
+  - ASE_Assignment.AppCommands.AppFor
+  - ASE_Assignment.AppCommands.AppMethod
+  - ASE_Assignment.AppCommands.AppReal
+  - ASE_Assignment.AppCommands.AppTriangle
+  - ASE_Assignment.AppCommands.AppWrite
+  langs:
+  - csharp
+  - vb
+  name: ASE_Assignment.AppCommands
+  nameWithType: ASE_Assignment.AppCommands
+  fullName: ASE_Assignment.AppCommands
+  type: Namespace
+  assemblies:
+  - ASE Assignment
+references:
+- uid: ASE_Assignment.AppCommands.AppArray
+  commentId: T:ASE_Assignment.AppCommands.AppArray
+  href: ASE_Assignment.AppCommands.AppArray.html
+  name: AppArray
+  nameWithType: AppArray
+  fullName: ASE_Assignment.AppCommands.AppArray
+- uid: ASE_Assignment.AppCommands.AppBool
+  commentId: T:ASE_Assignment.AppCommands.AppBool
+  href: ASE_Assignment.AppCommands.AppBool.html
+  name: AppBool
+  nameWithType: AppBool
+  fullName: ASE_Assignment.AppCommands.AppBool
+- uid: ASE_Assignment.AppCommands.AppElse
+  commentId: T:ASE_Assignment.AppCommands.AppElse
+  href: ASE_Assignment.AppCommands.AppElse.html
+  name: AppElse
+  nameWithType: AppElse
+  fullName: ASE_Assignment.AppCommands.AppElse
+- uid: ASE_Assignment.AppCommands.AppEnd
+  commentId: T:ASE_Assignment.AppCommands.AppEnd
+  href: ASE_Assignment.AppCommands.AppEnd.html
+  name: AppEnd
+  nameWithType: AppEnd
+  fullName: ASE_Assignment.AppCommands.AppEnd
+- uid: ASE_Assignment.AppCommands.AppFor
+  commentId: T:ASE_Assignment.AppCommands.AppFor
+  href: ASE_Assignment.AppCommands.AppFor.html
+  name: AppFor
+  nameWithType: AppFor
+  fullName: ASE_Assignment.AppCommands.AppFor
+- uid: ASE_Assignment.AppCommands.AppMethod
+  commentId: T:ASE_Assignment.AppCommands.AppMethod
+  href: ASE_Assignment.AppCommands.AppMethod.html
+  name: AppMethod
+  nameWithType: AppMethod
+  fullName: ASE_Assignment.AppCommands.AppMethod
+- uid: ASE_Assignment.AppCommands.AppReal
+  commentId: T:ASE_Assignment.AppCommands.AppReal
+  href: ASE_Assignment.AppCommands.AppReal.html
+  name: AppReal
+  nameWithType: AppReal
+  fullName: ASE_Assignment.AppCommands.AppReal
+- uid: ASE_Assignment.AppCommands.AppTriangle
+  commentId: T:ASE_Assignment.AppCommands.AppTriangle
+  href: ASE_Assignment.AppCommands.AppTriangle.html
+  name: AppTriangle
+  nameWithType: AppTriangle
+  fullName: ASE_Assignment.AppCommands.AppTriangle
+- uid: ASE_Assignment.AppCommands.AppWrite
+  commentId: T:ASE_Assignment.AppCommands.AppWrite
+  href: ASE_Assignment.AppCommands.AppWrite.html
+  name: AppWrite
+  nameWithType: AppWrite
+  fullName: ASE_Assignment.AppCommands.AppWrite

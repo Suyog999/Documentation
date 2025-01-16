@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: GUI
+  commentId: N:GUI
+  id: GUI
+  children:
+  - GUI.Form1
+  - GUI.Form1.Circle
+  langs:
+  - csharp
+  - vb
+  name: GUI
+  nameWithType: GUI
+  fullName: GUI
+  type: Namespace
+  assemblies:
+  - GUI
+references:
+- uid: GUI.Form1
+  commentId: T:GUI.Form1
+  href: GUI.Form1.html
+  name: Form1
+  nameWithType: Form1
+  fullName: GUI.Form1
+- uid: GUI.Form1.Circle
+  commentId: T:GUI.Form1.Circle
+  href: GUI.Form1.html
+  name: Form1.Circle
+  nameWithType: Form1.Circle
+  fullName: GUI.Form1.Circle
+  spec.csharp:
+  - uid: GUI.Form1
+    name: Form1
+    href: GUI.Form1.html
+  - name: .
+  - uid: GUI.Form1.Circle
+    name: Circle
+    href: GUI.Form1.Circle.html
+  spec.vb:
+  - uid: GUI.Form1
+    name: Form1
+    href: GUI.Form1.html
+  - name: .
+  - uid: GUI.Form1.Circle
+    name: Circle
+    href: GUI.Form1.Circle.html

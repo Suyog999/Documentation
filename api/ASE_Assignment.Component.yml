@@ -1,0 +1,44 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_Assignment.Component
+  commentId: N:ASE_Assignment.Component
+  id: ASE_Assignment.Component
+  children:
+  - ASE_Assignment.Component.AppCanvas
+  - ASE_Assignment.Component.AppParse
+  - ASE_Assignment.Component.CustomStoredProgram
+  - ASE_Assignment.Component.FactoryCommand
+  langs:
+  - csharp
+  - vb
+  name: ASE_Assignment.Component
+  nameWithType: ASE_Assignment.Component
+  fullName: ASE_Assignment.Component
+  type: Namespace
+  assemblies:
+  - ASE Assignment
+references:
+- uid: ASE_Assignment.Component.AppCanvas
+  commentId: T:ASE_Assignment.Component.AppCanvas
+  href: ASE_Assignment.Component.AppCanvas.html
+  name: AppCanvas
+  nameWithType: AppCanvas
+  fullName: ASE_Assignment.Component.AppCanvas
+- uid: ASE_Assignment.Component.AppParse
+  commentId: T:ASE_Assignment.Component.AppParse
+  href: ASE_Assignment.Component.AppParse.html
+  name: AppParse
+  nameWithType: AppParse
+  fullName: ASE_Assignment.Component.AppParse
+- uid: ASE_Assignment.Component.CustomStoredProgram
+  commentId: T:ASE_Assignment.Component.CustomStoredProgram
+  href: ASE_Assignment.Component.CustomStoredProgram.html
+  name: CustomStoredProgram
+  nameWithType: CustomStoredProgram
+  fullName: ASE_Assignment.Component.CustomStoredProgram
+- uid: ASE_Assignment.Component.FactoryCommand
+  commentId: T:ASE_Assignment.Component.FactoryCommand
+  href: ASE_Assignment.Component.FactoryCommand.html
+  name: FactoryCommand
+  nameWithType: FactoryCommand
+  fullName: ASE_Assignment.Component.FactoryCommand

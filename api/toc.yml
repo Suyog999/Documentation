@@ -1,0 +1,183 @@
+### YamlMime:TableOfContent
+items:
+- uid: ASE_Assignment
+  name: ASE_Assignment
+  type: Namespace
+  items:
+  - uid: ASE_Assignment.AppIf
+    name: AppIf
+    type: Class
+  - uid: ASE_Assignment.AppInt
+    name: AppInt
+    type: Class
+  - uid: ASE_Assignment.AppIntBuilder
+    name: AppIntBuilder
+    type: Class
+  - uid: ASE_Assignment.AppIntDirector
+    name: AppIntDirector
+    type: Class
+  - uid: ASE_Assignment.AppWhile
+    name: AppWhile
+    type: Class
+  - uid: ASE_Assignment.AppWhileBuilder
+    name: AppWhileBuilder
+    type: Class
+  - uid: ASE_Assignment.AppWhileDirector
+    name: AppWhileDirector
+    type: Class
+  - uid: ASE_Assignment.Form1
+    name: Form1
+    type: Class
+  - uid: ASE_Assignment.InterfaceAppIntBuilder
+    name: InterfaceAppIntBuilder
+    type: Interface
+  - uid: ASE_Assignment.InterfaceAppWhileBuilder
+    name: InterfaceAppWhileBuilder
+    type: Interface
+- uid: ASE_Assignment.AppCommands
+  name: ASE_Assignment.AppCommands
+  type: Namespace
+  items:
+  - uid: ASE_Assignment.AppCommands.AppArray
+    name: AppArray
+    type: Class
+  - uid: ASE_Assignment.AppCommands.AppBool
+    name: AppBool
+    type: Class
+  - uid: ASE_Assignment.AppCommands.AppElse
+    name: AppElse
+    type: Class
+  - uid: ASE_Assignment.AppCommands.AppEnd
+    name: AppEnd
+    type: Class
+  - uid: ASE_Assignment.AppCommands.AppFor
+    name: AppFor
+    type: Class
+  - uid: ASE_Assignment.AppCommands.AppMethod
+    name: AppMethod
+    type: Class
+  - uid: ASE_Assignment.AppCommands.AppReal
+    name: AppReal
+    type: Class
+  - uid: ASE_Assignment.AppCommands.AppTriangle
+    name: AppTriangle
+    type: Class
+  - uid: ASE_Assignment.AppCommands.AppWrite
+    name: AppWrite
+    type: Class
+- uid: ASE_Assignment.Component
+  name: ASE_Assignment.Component
+  type: Namespace
+  items:
+  - uid: ASE_Assignment.Component.AppCanvas
+    name: AppCanvas
+    type: Class
+  - uid: ASE_Assignment.Component.AppParse
+    name: AppParse
+    type: Class
+  - uid: ASE_Assignment.Component.CustomStoredProgram
+    name: CustomStoredProgram
+    type: Class
+  - uid: ASE_Assignment.Component.FactoryCommand
+    name: FactoryCommand
+    type: Class
+- uid: Assignment_Test
+  name: Assignment_Test
+  type: Namespace
+  items:
+  - uid: Assignment_Test.TestBool
+    name: TestBool
+    type: Class
+  - uid: Assignment_Test.TestCanvas
+    name: TestCanvas
+    type: Class
+  - uid: Assignment_Test.TestDraw
+    name: TestDraw
+    type: Class
+  - uid: Assignment_Test.TestFactoryCommand
+    name: TestFactoryCommand
+    type: Class
+  - uid: Assignment_Test.TestFor
+    name: TestFor
+    type: Class
+  - uid: Assignment_Test.TestIf
+    name: TestIf
+    type: Class
+  - uid: Assignment_Test.TestInt
+    name: TestInt
+    type: Class
+  - uid: Assignment_Test.TestIntBuilder
+    name: TestIntBuilder
+    type: Class
+  - uid: Assignment_Test.TestIntDirector
+    name: TestIntDirector
+    type: Class
+  - uid: Assignment_Test.TestMethod
+    name: TestMethod
+    type: Class
+  - uid: Assignment_Test.TestMove
+    name: TestMove
+    type: Class
+  - uid: Assignment_Test.TestMultiLine
+    name: TestMultiLine
+    type: Class
+  - uid: Assignment_Test.TestParser
+    name: TestParser
+    type: Class
+  - uid: Assignment_Test.TestReal
+    name: TestReal
+    type: Class
+  - uid: Assignment_Test.TestStoreProgram
+    name: TestStoreProgram
+    type: Class
+  - uid: Assignment_Test.TestTriangle
+    name: TestTriangle
+    type: Class
+  - uid: Assignment_Test.TestWhile
+    name: TestWhile
+    type: Class
+  - uid: Assignment_Test.TestWrite
+    name: TestWrite
+    type: Class
+- uid: GUI
+  name: GUI
+  type: Namespace
+  items:
+  - uid: GUI.Form1
+    name: Form1
+    type: Class
+  - uid: GUI.Form1.Circle
+    name: Form1.Circle
+    type: Class
+- uid: WebApplicationCanvas.Controllers
+  name: WebApplicationCanvas.Controllers
+  type: Namespace
+  items:
+  - uid: WebApplicationCanvas.Controllers.CanvasController
+    name: CanvasController
+    type: Class
+  - uid: WebApplicationCanvas.Controllers.HomeController
+    name: HomeController
+    type: Class
+- uid: WebApplicationCanvas.Models
+  name: WebApplicationCanvas.Models
+  type: Namespace
+  items:
+  - uid: WebApplicationCanvas.Models.ErrorViewModel
+    name: ErrorViewModel
+    type: Class
+- uid: WindowsFormsApp1
+  name: WindowsFormsApp1
+  type: Namespace
+  items:
+  - uid: WindowsFormsApp1.Form1
+    name: Form1
+    type: Class
+- uid: gd_
+  name: gd_
+  type: Namespace
+  items:
+  - uid: gd_.drawingline
+    name: drawingline
+    type: Class
+memberLayout: SamePage

@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: gd_
+  commentId: N:gd_
+  id: gd_
+  children:
+  - gd_.drawingline
+  langs:
+  - csharp
+  - vb
+  name: gd_
+  nameWithType: gd_
+  fullName: gd_
+  type: Namespace
+  assemblies:
+  - gd+
+references:
+- uid: gd_.drawingline
+  commentId: T:gd_.drawingline
+  href: gd_.drawingline.html
+  name: drawingline
+  nameWithType: drawingline
+  fullName: gd_.drawingline

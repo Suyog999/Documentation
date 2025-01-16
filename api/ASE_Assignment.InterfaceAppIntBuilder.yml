@@ -1,0 +1,176 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_Assignment.InterfaceAppIntBuilder
+  commentId: T:ASE_Assignment.InterfaceAppIntBuilder
+  id: InterfaceAppIntBuilder
+  parent: ASE_Assignment
+  children:
+  - ASE_Assignment.InterfaceAppIntBuilder.BuildConfiguration
+  - ASE_Assignment.InterfaceAppIntBuilder.BuildDependencies
+  - ASE_Assignment.InterfaceAppIntBuilder.BuildSettings
+  - ASE_Assignment.InterfaceAppIntBuilder.GetAppInt
+  langs:
+  - csharp
+  - vb
+  name: InterfaceAppIntBuilder
+  nameWithType: InterfaceAppIntBuilder
+  fullName: ASE_Assignment.InterfaceAppIntBuilder
+  type: Interface
+  source:
+    remote:
+      path: ASE Assignment/Design Pattern/InterfaceAppIntBuilder.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
+    id: InterfaceAppIntBuilder
+    path: ../ASE Assignment/Design Pattern/InterfaceAppIntBuilder.cs
+    startLine: 8
+  assemblies:
+  - ASE Assignment
+  namespace: ASE_Assignment
+  syntax:
+    content: public interface InterfaceAppIntBuilder
+    content.vb: Public Interface InterfaceAppIntBuilder
+- uid: ASE_Assignment.InterfaceAppIntBuilder.BuildConfiguration
+  commentId: M:ASE_Assignment.InterfaceAppIntBuilder.BuildConfiguration
+  id: BuildConfiguration
+  parent: ASE_Assignment.InterfaceAppIntBuilder
+  langs:
+  - csharp
+  - vb
+  name: BuildConfiguration()
+  nameWithType: InterfaceAppIntBuilder.BuildConfiguration()
+  fullName: ASE_Assignment.InterfaceAppIntBuilder.BuildConfiguration()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment/Design Pattern/InterfaceAppIntBuilder.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
+    id: BuildConfiguration
+    path: ../ASE Assignment/Design Pattern/InterfaceAppIntBuilder.cs
+    startLine: 10
+  assemblies:
+  - ASE Assignment
+  namespace: ASE_Assignment
+  syntax:
+    content: void BuildConfiguration()
+    content.vb: Sub BuildConfiguration()
+  overload: ASE_Assignment.InterfaceAppIntBuilder.BuildConfiguration*
+- uid: ASE_Assignment.InterfaceAppIntBuilder.BuildDependencies
+  commentId: M:ASE_Assignment.InterfaceAppIntBuilder.BuildDependencies
+  id: BuildDependencies
+  parent: ASE_Assignment.InterfaceAppIntBuilder
+  langs:
+  - csharp
+  - vb
+  name: BuildDependencies()
+  nameWithType: InterfaceAppIntBuilder.BuildDependencies()
+  fullName: ASE_Assignment.InterfaceAppIntBuilder.BuildDependencies()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment/Design Pattern/InterfaceAppIntBuilder.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
+    id: BuildDependencies
+    path: ../ASE Assignment/Design Pattern/InterfaceAppIntBuilder.cs
+    startLine: 11
+  assemblies:
+  - ASE Assignment
+  namespace: ASE_Assignment
+  syntax:
+    content: void BuildDependencies()
+    content.vb: Sub BuildDependencies()
+  overload: ASE_Assignment.InterfaceAppIntBuilder.BuildDependencies*
+- uid: ASE_Assignment.InterfaceAppIntBuilder.BuildSettings
+  commentId: M:ASE_Assignment.InterfaceAppIntBuilder.BuildSettings
+  id: BuildSettings
+  parent: ASE_Assignment.InterfaceAppIntBuilder
+  langs:
+  - csharp
+  - vb
+  name: BuildSettings()
+  nameWithType: InterfaceAppIntBuilder.BuildSettings()
+  fullName: ASE_Assignment.InterfaceAppIntBuilder.BuildSettings()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment/Design Pattern/InterfaceAppIntBuilder.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
+    id: BuildSettings
+    path: ../ASE Assignment/Design Pattern/InterfaceAppIntBuilder.cs
+    startLine: 12
+  assemblies:
+  - ASE Assignment
+  namespace: ASE_Assignment
+  syntax:
+    content: void BuildSettings()
+    content.vb: Sub BuildSettings()
+  overload: ASE_Assignment.InterfaceAppIntBuilder.BuildSettings*
+- uid: ASE_Assignment.InterfaceAppIntBuilder.GetAppInt
+  commentId: M:ASE_Assignment.InterfaceAppIntBuilder.GetAppInt
+  id: GetAppInt
+  parent: ASE_Assignment.InterfaceAppIntBuilder
+  langs:
+  - csharp
+  - vb
+  name: GetAppInt()
+  nameWithType: InterfaceAppIntBuilder.GetAppInt()
+  fullName: ASE_Assignment.InterfaceAppIntBuilder.GetAppInt()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment/Design Pattern/InterfaceAppIntBuilder.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
+    id: GetAppInt
+    path: ../ASE Assignment/Design Pattern/InterfaceAppIntBuilder.cs
+    startLine: 13
+  assemblies:
+  - ASE Assignment
+  namespace: ASE_Assignment
+  syntax:
+    content: AppInt GetAppInt()
+    return:
+      type: ASE_Assignment.AppInt
+    content.vb: Function GetAppInt() As AppInt
+  overload: ASE_Assignment.InterfaceAppIntBuilder.GetAppInt*
+references:
+- uid: ASE_Assignment
+  commentId: N:ASE_Assignment
+  href: ASE_Assignment.html
+  name: ASE_Assignment
+  nameWithType: ASE_Assignment
+  fullName: ASE_Assignment
+- uid: ASE_Assignment.InterfaceAppIntBuilder.BuildConfiguration*
+  commentId: Overload:ASE_Assignment.InterfaceAppIntBuilder.BuildConfiguration
+  href: ASE_Assignment.InterfaceAppIntBuilder.html#ASE_Assignment_InterfaceAppIntBuilder_BuildConfiguration
+  name: BuildConfiguration
+  nameWithType: InterfaceAppIntBuilder.BuildConfiguration
+  fullName: ASE_Assignment.InterfaceAppIntBuilder.BuildConfiguration
+- uid: ASE_Assignment.InterfaceAppIntBuilder.BuildDependencies*
+  commentId: Overload:ASE_Assignment.InterfaceAppIntBuilder.BuildDependencies
+  href: ASE_Assignment.InterfaceAppIntBuilder.html#ASE_Assignment_InterfaceAppIntBuilder_BuildDependencies
+  name: BuildDependencies
+  nameWithType: InterfaceAppIntBuilder.BuildDependencies
+  fullName: ASE_Assignment.InterfaceAppIntBuilder.BuildDependencies
+- uid: ASE_Assignment.InterfaceAppIntBuilder.BuildSettings*
+  commentId: Overload:ASE_Assignment.InterfaceAppIntBuilder.BuildSettings
+  href: ASE_Assignment.InterfaceAppIntBuilder.html#ASE_Assignment_InterfaceAppIntBuilder_BuildSettings
+  name: BuildSettings
+  nameWithType: InterfaceAppIntBuilder.BuildSettings
+  fullName: ASE_Assignment.InterfaceAppIntBuilder.BuildSettings
+- uid: ASE_Assignment.InterfaceAppIntBuilder.GetAppInt*
+  commentId: Overload:ASE_Assignment.InterfaceAppIntBuilder.GetAppInt
+  href: ASE_Assignment.InterfaceAppIntBuilder.html#ASE_Assignment_InterfaceAppIntBuilder_GetAppInt
+  name: GetAppInt
+  nameWithType: InterfaceAppIntBuilder.GetAppInt
+  fullName: ASE_Assignment.InterfaceAppIntBuilder.GetAppInt
+- uid: ASE_Assignment.AppInt
+  commentId: T:ASE_Assignment.AppInt
+  parent: ASE_Assignment
+  href: ASE_Assignment.AppInt.html
+  name: AppInt
+  nameWithType: AppInt
+  fullName: ASE_Assignment.AppInt
