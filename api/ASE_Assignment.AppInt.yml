@@ -24,10 +24,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: AppInt
     path: ../ASE Assignment/Design Pattern/AppInt.cs
-    startLine: 12
+    startLine: 15
   assemblies:
   - ASE Assignment
   namespace: ASE_Assignment
+  summary: App Int class
+  example: []
   syntax:
     content: 'public class AppInt : Int, ICommand'
     content.vb: Public Class AppInt Inherits Int Implements ICommand
@@ -86,7 +88,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: Configuration
     path: ../ASE Assignment/Design Pattern/AppInt.cs
-    startLine: 14
+    startLine: 17
   assemblies:
   - ASE Assignment
   namespace: ASE_Assignment
@@ -115,7 +117,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: Dependencies
     path: ../ASE Assignment/Design Pattern/AppInt.cs
-    startLine: 15
+    startLine: 18
   assemblies:
   - ASE Assignment
   namespace: ASE_Assignment
@@ -144,7 +146,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: Settings
     path: ../ASE Assignment/Design Pattern/AppInt.cs
-    startLine: 16
+    startLine: 19
   assemblies:
   - ASE Assignment
   namespace: ASE_Assignment
@@ -173,7 +175,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: Restrictions
     path: ../ASE Assignment/Design Pattern/AppInt.cs
-    startLine: 17
+    startLine: 20
   assemblies:
   - ASE Assignment
   namespace: ASE_Assignment
@@ -201,7 +203,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: ToString
     path: ../ASE Assignment/Design Pattern/AppInt.cs
-    startLine: 21
+    startLine: 24
   assemblies:
   - ASE Assignment
   namespace: ASE_Assignment

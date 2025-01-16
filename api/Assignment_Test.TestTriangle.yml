@@ -20,10 +20,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: TestTriangle
     path: ../Assignment Test/TestTriangle.cs
-    startLine: 11
+    startLine: 14
   assemblies:
   - Assignment Test
   namespace: Assignment_Test
+  summary: test class for triangle
+  example: []
   syntax:
     content: >-
       [TestClass]
@@ -65,10 +67,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: Execute_ValidParameters_CallsCanvasTri
     path: ../Assignment Test/TestTriangle.cs
-    startLine: 16
+    startLine: 22
   assemblies:
   - Assignment Test
   namespace: Assignment_Test
+  summary: test method to check the given parameters
+  example: []
   syntax:
     content: >-
       [TestMethod]

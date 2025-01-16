@@ -20,10 +20,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: TestInt
     path: ../Assignment Test/TestInt.cs
-    startLine: 10
+    startLine: 13
   assemblies:
   - Assignment Test
   namespace: Assignment_Test
+  summary: test class for app int
+  example: []
   syntax:
     content: >-
       [TestClass]
@@ -65,10 +67,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: TestForInt
     path: ../Assignment Test/TestInt.cs
-    startLine: 13
+    startLine: 19
   assemblies:
   - Assignment Test
   namespace: Assignment_Test
+  summary: test method for if int class runs well
+  example: []
   syntax:
     content: >-
       [TestMethod]

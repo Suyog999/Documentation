@@ -20,10 +20,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: TestStoreProgram
     path: ../Assignment Test/TestStoreProgram.cs
-    startLine: 9
+    startLine: 12
   assemblies:
   - Assignment Test
   namespace: Assignment_Test
+  summary: test class for customstoreprogram
+  example: []
   syntax:
     content: >-
       [TestClass]
@@ -65,10 +67,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: TestCustomStoreProgram
     path: ../Assignment Test/TestStoreProgram.cs
-    startLine: 12
+    startLine: 18
   assemblies:
   - Assignment Test
   namespace: Assignment_Test
+  summary: test method to check if the run method works
+  example: []
   syntax:
     content: >-
       [TestMethod]

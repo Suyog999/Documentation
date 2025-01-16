@@ -33,10 +33,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: TestFactoryCommand
     path: ../Assignment Test/TestFactoryCommand.cs
-    startLine: 8
+    startLine: 11
   assemblies:
   - Assignment Test
   namespace: Assignment_Test
+  summary: Test for factory command
+  example: []
   syntax:
     content: >-
       [TestClass]
@@ -78,10 +80,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: SetUp
     path: ../Assignment Test/TestFactoryCommand.cs
-    startLine: 13
+    startLine: 18
   assemblies:
   - Assignment Test
   namespace: Assignment_Test
+  summary: setup of new factory object
+  example: []
   syntax:
     content: >-
       [TestInitialize]
@@ -114,10 +118,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: TestsAppTriangle
     path: ../Assignment Test/TestFactoryCommand.cs
-    startLine: 19
+    startLine: 27
   assemblies:
   - Assignment Test
   namespace: Assignment_Test
+  summary: test of triangle command
+  example: []
   syntax:
     content: >-
       [TestMethod]
@@ -150,10 +156,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: TestReturnsAppWrite
     path: ../Assignment Test/TestFactoryCommand.cs
-    startLine: 28
+    startLine: 38
   assemblies:
   - Assignment Test
   namespace: Assignment_Test
+  summary: test of app write command
+  example: []
   syntax:
     content: >-
       [TestMethod]
@@ -186,10 +194,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: TestAppInt
     path: ../Assignment Test/TestFactoryCommand.cs
-    startLine: 38
+    startLine: 50
   assemblies:
   - Assignment Test
   namespace: Assignment_Test
+  summary: test of app int
+  example: []
   syntax:
     content: >-
       [TestMethod]
@@ -222,10 +232,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: TestAppReal
     path: ../Assignment Test/TestFactoryCommand.cs
-    startLine: 48
+    startLine: 62
   assemblies:
   - Assignment Test
   namespace: Assignment_Test
+  summary: test of app real
+  example: []
   syntax:
     content: >-
       [TestMethod]
@@ -258,10 +270,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: TestAppArray
     path: ../Assignment Test/TestFactoryCommand.cs
-    startLine: 58
+    startLine: 75
   assemblies:
   - Assignment Test
   namespace: Assignment_Test
+  summary: test of app array
+  example: []
   syntax:
     content: >-
       [TestMethod]
@@ -294,10 +308,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: TestAppWhile
     path: ../Assignment Test/TestFactoryCommand.cs
-    startLine: 68
+    startLine: 87
   assemblies:
   - Assignment Test
   namespace: Assignment_Test
+  summary: test of app while
+  example: []
   syntax:
     content: >-
       [TestMethod]
@@ -330,10 +346,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: TestAppIf
     path: ../Assignment Test/TestFactoryCommand.cs
-    startLine: 78
+    startLine: 99
   assemblies:
   - Assignment Test
   namespace: Assignment_Test
+  summary: test of app if
+  example: []
   syntax:
     content: >-
       [TestMethod]
@@ -366,10 +384,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: TestAppEnd
     path: ../Assignment Test/TestFactoryCommand.cs
-    startLine: 88
+    startLine: 111
   assemblies:
   - Assignment Test
   namespace: Assignment_Test
+  summary: test of app end
+  example: []
   syntax:
     content: >-
       [TestMethod]
@@ -402,10 +422,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: TestAppElse
     path: ../Assignment Test/TestFactoryCommand.cs
-    startLine: 98
+    startLine: 123
   assemblies:
   - Assignment Test
   namespace: Assignment_Test
+  summary: test of app else
+  example: []
   syntax:
     content: >-
       [TestMethod]
@@ -438,10 +460,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: TestAppFor
     path: ../Assignment Test/TestFactoryCommand.cs
-    startLine: 108
+    startLine: 135
   assemblies:
   - Assignment Test
   namespace: Assignment_Test
+  summary: test of app for
+  example: []
   syntax:
     content: >-
       [TestMethod]
@@ -474,10 +498,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: TestAppBool
     path: ../Assignment Test/TestFactoryCommand.cs
-    startLine: 128
+    startLine: 148
   assemblies:
   - Assignment Test
   namespace: Assignment_Test
+  summary: test of app bool
+  example: []
   syntax:
     content: >-
       [TestMethod]
@@ -510,10 +536,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: TestBaseCommand
     path: ../Assignment Test/TestFactoryCommand.cs
-    startLine: 138
+    startLine: 161
   assemblies:
   - Assignment Test
   namespace: Assignment_Test
+  summary: test of app command
+  example: []
   syntax:
     content: >-
       [TestMethod]

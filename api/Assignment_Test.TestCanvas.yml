@@ -25,10 +25,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: TestCanvas
     path: ../Assignment Test/TestCanvas.cs
-    startLine: 6
+    startLine: 9
   assemblies:
   - Assignment Test
   namespace: Assignment_Test
+  summary: Test class to test the functions in canvas
+  example: []
   syntax:
     content: >-
       [TestClass]
@@ -70,10 +72,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: TestForCanvas
     path: ../Assignment Test/TestCanvas.cs
-    startLine: 9
+    startLine: 15
   assemblies:
   - Assignment Test
   namespace: Assignment_Test
+  summary: test class for triangle in canvas
+  example: []
   syntax:
     content: >-
       [TestMethod]
@@ -106,10 +110,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: TestCircle
     path: ../Assignment Test/TestCanvas.cs
-    startLine: 16
+    startLine: 26
   assemblies:
   - Assignment Test
   namespace: Assignment_Test
+  summary: test class for circle
+  example: []
   syntax:
     content: >-
       [TestMethod]
@@ -142,10 +148,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: TestClear
     path: ../Assignment Test/TestCanvas.cs
-    startLine: 23
+    startLine: 35
   assemblies:
   - Assignment Test
   namespace: Assignment_Test
+  summary: test class for clear
+  example: []
   syntax:
     content: >-
       [TestMethod]
@@ -178,10 +186,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: TestMoveTo
     path: ../Assignment Test/TestCanvas.cs
-    startLine: 30
+    startLine: 44
   assemblies:
   - Assignment Test
   namespace: Assignment_Test
+  summary: test class for Move
+  example: []
   syntax:
     content: >-
       [TestMethod]
@@ -214,10 +224,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: TestSetColour
     path: ../Assignment Test/TestCanvas.cs
-    startLine: 37
+    startLine: 53
   assemblies:
   - Assignment Test
   namespace: Assignment_Test
+  summary: test class for set colour
+  example: []
   syntax:
     content: >-
       [TestMethod]
@@ -250,10 +262,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: TestWriteText
     path: ../Assignment Test/TestCanvas.cs
-    startLine: 44
+    startLine: 63
   assemblies:
   - Assignment Test
   namespace: Assignment_Test
+  summary: test class for writing
+  example: []
   syntax:
     content: >-
       [TestMethod]

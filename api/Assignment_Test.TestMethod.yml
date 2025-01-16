@@ -20,10 +20,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: TestMethod
     path: ../Assignment Test/TestMethod.cs
-    startLine: 8
+    startLine: 11
   assemblies:
   - Assignment Test
   namespace: Assignment_Test
+  summary: class to test the method
+  example: []
   syntax:
     content: >-
       [TestClass]
@@ -65,10 +67,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: TestForMethod
     path: ../Assignment Test/TestMethod.cs
-    startLine: 11
+    startLine: 17
   assemblies:
   - Assignment Test
   namespace: Assignment_Test
+  summary: test method to check the number of object of method created
+  example: []
   syntax:
     content: >-
       [TestMethod]

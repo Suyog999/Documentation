@@ -23,10 +23,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: AppWhileBuilder
     path: ../ASE Assignment/Design Pattern/AppWhileBuilder.cs
-    startLine: 8
+    startLine: 11
   assemblies:
   - ASE Assignment
   namespace: ASE_Assignment
+  summary: While builder to build while class
+  example: []
   syntax:
     content: 'public class AppWhileBuilder : InterfaceAppWhileBuilder'
     content.vb: Public Class AppWhileBuilder Implements InterfaceAppWhileBuilder
@@ -60,7 +62,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: .ctor
     path: ../ASE Assignment/Design Pattern/AppWhileBuilder.cs
-    startLine: 12
+    startLine: 15
   assemblies:
   - ASE Assignment
   namespace: ASE_Assignment
@@ -89,7 +91,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: BuildCondition
     path: ../ASE Assignment/Design Pattern/AppWhileBuilder.cs
-    startLine: 17
+    startLine: 20
   assemblies:
   - ASE Assignment
   namespace: ASE_Assignment
@@ -118,7 +120,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: BuildBody
     path: ../ASE Assignment/Design Pattern/AppWhileBuilder.cs
-    startLine: 22
+    startLine: 25
   assemblies:
   - ASE Assignment
   namespace: ASE_Assignment
@@ -147,7 +149,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: GetAppWhile
     path: ../ASE Assignment/Design Pattern/AppWhileBuilder.cs
-    startLine: 27
+    startLine: 30
   assemblies:
   - ASE Assignment
   namespace: ASE_Assignment

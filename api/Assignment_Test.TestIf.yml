@@ -20,10 +20,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: TestIf
     path: ../Assignment Test/TestIf.cs
-    startLine: 10
+    startLine: 13
   assemblies:
   - Assignment Test
   namespace: Assignment_Test
+  summary: test class for if else
+  example: []
   syntax:
     content: >-
       [TestClass]
@@ -65,10 +67,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: TestIfElse
     path: ../Assignment Test/TestIf.cs
-    startLine: 13
+    startLine: 19
   assemblies:
   - Assignment Test
   namespace: Assignment_Test
+  summary: test method for if ifelse class runs well
+  example: []
   syntax:
     content: >-
       [TestMethod]

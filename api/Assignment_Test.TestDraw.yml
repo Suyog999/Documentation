@@ -20,10 +20,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: TestDraw
     path: ../Assignment Test/TestDraw.cs
-    startLine: 9
+    startLine: 12
   assemblies:
   - Assignment Test
   namespace: Assignment_Test
+  summary: test class for drwaing in canvas
+  example: []
   syntax:
     content: >-
       [TestClass]
@@ -65,10 +67,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: TestDrawTo
     path: ../Assignment Test/TestDraw.cs
-    startLine: 12
+    startLine: 18
   assemblies:
   - Assignment Test
   namespace: Assignment_Test
+  summary: test method for testing
+  example: []
   syntax:
     content: >-
       [TestMethod]

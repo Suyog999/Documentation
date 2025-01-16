@@ -27,10 +27,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: AppIntBuilder
     path: ../ASE Assignment/Design Pattern/AppIntBuilder.cs
-    startLine: 4
+    startLine: 7
   assemblies:
   - ASE Assignment
   namespace: ASE_Assignment
+  summary: Int builder Class that extends Interaface
+  example: []
   syntax:
     content: 'public class AppIntBuilder : InterfaceAppIntBuilder'
     content.vb: Public Class AppIntBuilder Implements InterfaceAppIntBuilder
@@ -64,7 +66,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: ConfigurationBuilt
     path: ../ASE Assignment/Design Pattern/AppIntBuilder.cs
-    startLine: 8
+    startLine: 11
   assemblies:
   - ASE Assignment
   namespace: ASE_Assignment
@@ -93,7 +95,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: DependenciesBuilt
     path: ../ASE Assignment/Design Pattern/AppIntBuilder.cs
-    startLine: 9
+    startLine: 12
   assemblies:
   - ASE Assignment
   namespace: ASE_Assignment
@@ -122,7 +124,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: SettingsBuilt
     path: ../ASE Assignment/Design Pattern/AppIntBuilder.cs
-    startLine: 10
+    startLine: 13
   assemblies:
   - ASE Assignment
   namespace: ASE_Assignment
@@ -151,7 +153,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: .ctor
     path: ../ASE Assignment/Design Pattern/AppIntBuilder.cs
-    startLine: 12
+    startLine: 15
   assemblies:
   - ASE Assignment
   namespace: ASE_Assignment
@@ -180,7 +182,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: BuildConfiguration
     path: ../ASE Assignment/Design Pattern/AppIntBuilder.cs
-    startLine: 17
+    startLine: 20
   assemblies:
   - ASE Assignment
   namespace: ASE_Assignment
@@ -209,7 +211,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: BuildDependencies
     path: ../ASE Assignment/Design Pattern/AppIntBuilder.cs
-    startLine: 23
+    startLine: 26
   assemblies:
   - ASE Assignment
   namespace: ASE_Assignment
@@ -238,7 +240,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: BuildSettings
     path: ../ASE Assignment/Design Pattern/AppIntBuilder.cs
-    startLine: 29
+    startLine: 32
   assemblies:
   - ASE Assignment
   namespace: ASE_Assignment
@@ -267,7 +269,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: GetAppInt
     path: ../ASE Assignment/Design Pattern/AppIntBuilder.cs
-    startLine: 35
+    startLine: 38
   assemblies:
   - ASE Assignment
   namespace: ASE_Assignment

@@ -24,10 +24,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: AppWhile
     path: ../ASE Assignment/Design Pattern/AppWhile.cs
-    startLine: 8
+    startLine: 11
   assemblies:
   - ASE Assignment
   namespace: ASE_Assignment
+  summary: App while for while loop
+  example: []
   syntax:
     content: 'public class AppWhile : While, ICommand'
     content.vb: Public Class AppWhile Inherits While Implements ICommand
@@ -97,7 +99,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: Condition
     path: ../ASE Assignment/Design Pattern/AppWhile.cs
-    startLine: 10
+    startLine: 13
   assemblies:
   - ASE Assignment
   namespace: ASE_Assignment
@@ -126,7 +128,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: Body
     path: ../ASE Assignment/Design Pattern/AppWhile.cs
-    startLine: 11
+    startLine: 14
   assemblies:
   - ASE Assignment
   namespace: ASE_Assignment
@@ -155,7 +157,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: .ctor
     path: ../ASE Assignment/Design Pattern/AppWhile.cs
-    startLine: 12
+    startLine: 15
   assemblies:
   - ASE Assignment
   namespace: ASE_Assignment
@@ -184,7 +186,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: Restrictions
     path: ../ASE Assignment/Design Pattern/AppWhile.cs
-    startLine: 16
+    startLine: 19
   assemblies:
   - ASE Assignment
   namespace: ASE_Assignment
@@ -212,7 +214,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: ToString
     path: ../ASE Assignment/Design Pattern/AppWhile.cs
-    startLine: 20
+    startLine: 23
   assemblies:
   - ASE Assignment
   namespace: ASE_Assignment

@@ -24,10 +24,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: TestIntBuilder
     path: ../Assignment Test/TestIntBuilder.cs
-    startLine: 10
+    startLine: 13
   assemblies:
   - Assignment Test
   namespace: Assignment_Test
+  summary: test for builder class
+  example: []
   syntax:
     content: >-
       [TestClass]
@@ -69,10 +71,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: SetUp
     path: ../Assignment Test/TestIntBuilder.cs
-    startLine: 15
+    startLine: 20
   assemblies:
   - Assignment Test
   namespace: Assignment_Test
+  summary: setup for builder object
+  example: []
   syntax:
     content: >-
       [TestInitialize]
@@ -105,10 +109,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: BuildConfiguration_SetsDefaultConfiguration
     path: ../Assignment Test/TestIntBuilder.cs
-    startLine: 21
+    startLine: 29
   assemblies:
   - Assignment Test
   namespace: Assignment_Test
+  summary: method to check if the configuration is set to Default Configuration
+  example: []
   syntax:
     content: >-
       [TestMethod]
@@ -141,10 +147,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: BuildDependencies_SetsDefaultDependencies
     path: ../Assignment Test/TestIntBuilder.cs
-    startLine: 32
+    startLine: 42
   assemblies:
   - Assignment Test
   namespace: Assignment_Test
+  summary: method to check if the dependencies is set to Default Dependencies
+  example: []
   syntax:
     content: >-
       [TestMethod]
@@ -177,10 +185,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: BuildSettings_SetsDefaultSettings
     path: ../Assignment Test/TestIntBuilder.cs
-    startLine: 43
+    startLine: 55
   assemblies:
   - Assignment Test
   namespace: Assignment_Test
+  summary: method to check if the settings is set on Default Settings
+  example: []
   syntax:
     content: >-
       [TestMethod]
@@ -213,7 +223,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: GetAppInt_ReturnsFullyConfiguredAppInt
     path: ../Assignment Test/TestIntBuilder.cs
-    startLine: 54
+    startLine: 66
   assemblies:
   - Assignment Test
   namespace: Assignment_Test

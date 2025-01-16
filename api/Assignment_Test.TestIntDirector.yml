@@ -21,10 +21,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: TestIntDirector
     path: ../Assignment Test/TestIntDirector.cs
-    startLine: 6
+    startLine: 9
   assemblies:
   - Assignment Test
   namespace: Assignment_Test
+  summary: test class to test the int director
+  example: []
   syntax:
     content: >-
       [TestClass]
@@ -66,10 +68,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: SetUp
     path: ../Assignment Test/TestIntDirector.cs
-    startLine: 12
+    startLine: 17
   assemblies:
   - Assignment Test
   namespace: Assignment_Test
+  summary: test setup to initialize the object
+  example: []
   syntax:
     content: >-
       [TestInitialize]
@@ -102,10 +106,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: Construct_CallsAllBuilderMethods
     path: ../Assignment Test/TestIntDirector.cs
-    startLine: 19
+    startLine: 26
   assemblies:
   - Assignment Test
   namespace: Assignment_Test
+  summary: test to check all builder method through director
+  example: []
   syntax:
     content: >-
       [TestMethod]

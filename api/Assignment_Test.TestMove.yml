@@ -20,10 +20,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: TestMove
     path: ../Assignment Test/TestMove.cs
-    startLine: 9
+    startLine: 12
   assemblies:
   - Assignment Test
   namespace: Assignment_Test
+  summary: test to check the move class
+  example: []
   syntax:
     content: >-
       [TestClass]
@@ -65,10 +67,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: TestMoveTo
     path: ../Assignment Test/TestMove.cs
-    startLine: 13
+    startLine: 18
   assemblies:
   - Assignment Test
   namespace: Assignment_Test
+  summary: method to check if move works
+  example: []
   syntax:
     content: >-
       [TestMethod]

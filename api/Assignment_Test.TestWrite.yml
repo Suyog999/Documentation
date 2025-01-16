@@ -20,10 +20,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: TestWrite
     path: ../Assignment Test/TestWrite.cs
-    startLine: 11
+    startLine: 14
   assemblies:
   - Assignment Test
   namespace: Assignment_Test
+  summary: test class to write
+  example: []
   syntax:
     content: >-
       [TestClass]
@@ -65,10 +67,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: testForMethod
     path: ../Assignment Test/TestWrite.cs
-    startLine: 14
+    startLine: 20
   assemblies:
   - Assignment Test
   namespace: Assignment_Test
+  summary: test method for 'method'
+  example: []
   syntax:
     content: >-
       [TestMethod]

@@ -20,10 +20,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: TestFor
     path: ../Assignment Test/TestFor.cs
-    startLine: 10
+    startLine: 13
   assemblies:
   - Assignment Test
   namespace: Assignment_Test
+  summary: test class for loop
+  example: []
   syntax:
     content: >-
       [TestClass]
@@ -65,10 +67,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: TestForForMethod
     path: ../Assignment Test/TestFor.cs
-    startLine: 13
+    startLine: 19
   assemblies:
   - Assignment Test
   namespace: Assignment_Test
+  summary: test method for 'for' loop
+  example: []
   syntax:
     content: >-
       [TestMethod]

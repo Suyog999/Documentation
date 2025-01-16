@@ -20,10 +20,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: TestReal
     path: ../Assignment Test/TestReal.cs
-    startLine: 8
+    startLine: 11
   assemblies:
   - Assignment Test
   namespace: Assignment_Test
+  summary: test class for appreal
+  example: []
   syntax:
     content: >-
       [TestClass]
@@ -65,10 +67,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-Suyog999.git
     id: TestForReal
     path: ../Assignment Test/TestReal.cs
-    startLine: 11
+    startLine: 17
   assemblies:
   - Assignment Test
   namespace: Assignment_Test
+  summary: test method to check  number of object of real created
+  example: []
   syntax:
     content: >-
       [TestMethod]
